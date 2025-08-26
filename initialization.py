@@ -4,8 +4,9 @@ from aiogram import Router
 
 router = Router()
 
-API_TOKEN = '8246639574:AAEfrgxFmjeuc6BSnQsn92NC9epeB3k8vOs'
+API_TOKEN = 'Your bot token'
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
+
 
 dp.include_router(router)
